@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    UITextField *usernameTextField;
+    UIButton *loginButton;
+    UILabel *loginDisplay;
+    UIButton *dateButton;
+    UIButton *infoButton;
+    UILabel *infoDisplay;
+}
 
 @end
